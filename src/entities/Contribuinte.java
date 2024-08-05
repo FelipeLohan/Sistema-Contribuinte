@@ -2,7 +2,7 @@ package entities;
 
 public abstract class Contribuinte {
     protected String nome;
-    protected Double pagamentoAnual;
+    protected Double rendaAnual;
 
-    public abstract double contribuir();
+    public abstract double pagarImposto();
 }
